@@ -1,0 +1,12 @@
+{
+  "name": "devfest-prompts-workshop",
+  "version": "1.0.0",
+  "description": "Esta es una aplicación web de comercio electrónico simple y no optimizada. La aplicación incluye una página de inicio, una página de productos y una página de carrito. La aplicación está construida utilizando HTML, CSS y JavaScript.",
+  "main": "cart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
