@@ -18,8 +18,6 @@ Do the following optimization based on my codebase.
 
 ## **Prompt for Optimization: Optimize Images**
 
-```markdown
-
 **Objective**: Improve the performance of the e-commerce web application by optimizing images.
 
 **Areas of Focus**:
@@ -30,7 +28,10 @@ Do the following optimization based on my codebase.
     - Convert images to modern formats like WebP for better compression and quality.
 3. **Implement Lazy Loading**:
     - Load images only when they are about to enter the viewport to reduce initial load time.
-```
+4. **Use npm Modules and Tools**:
+    - Utilize npm modules like `imagemin`, `imagemin-mozjpeg`, `imagemin-pngquant`, and `imagemin-webp` for image optimization.
+5. **Automate with Bash Scripts**:
+    - Create bash scripts to automate the image optimization process.
 
 ## Estructura de Archivos
 
