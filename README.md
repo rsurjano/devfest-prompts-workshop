@@ -2,18 +2,43 @@
 
 Esta es una aplicación web de comercio electrónico simple y no optimizada. La aplicación incluye una página de inicio, una página de productos y una página de carrito. La aplicación está construida utilizando HTML, CSS y JavaScript.
 
+## **Prompt for Optimization: Minimize HTTP Requests**
+
+```markdown
+Do the following optimization based on my codebase.
+
+**Objective**: Reduce the number of HTTP requests to improve the performance of the e-commerce web application.
+
+**Areas of Focus**:
+
+1. **Combine CSS and JavaScript Files**:
+    - Ensure all CSS is in a single styles.css file.
+    - Combine multiple JavaScript files into a single script.js file.
+```
+
+## **Prompt for Optimization: Optimize Images**
+
+```markdown
+
+**Objective**: Improve the performance of the e-commerce web application by optimizing images.
+
+**Areas of Focus**:
+
+1. **Compress Images**:
+    - Reduce the file size of images without compromising quality.
+2. **Use Modern Formats**:
+    - Convert images to modern formats like WebP for better compression and quality.
+3. **Implement Lazy Loading**:
+    - Load images only when they are about to enter the viewport to reduce initial load time.
+```
+
 ## Estructura de Archivos
 
 - `index.html`: La página de inicio del sitio de comercio electrónico.
 - `products.html`: La página de productos donde los usuarios pueden ver y agregar productos al carrito.
 - `cart.html`: La página del carrito donde los usuarios pueden ver los artículos en su carrito y proceder al pago.
-- `base.css`: Estilos básicos para la aplicación.
-- `header-footer.css`: Estilos para el encabezado y pie de página.
-- `navigation.css`: Estilos para la navegación.
-- `products.css`: Estilos para la página de productos.
-- `cart.js`: Maneja la funcionalidad del carrito.
-- `updateCart.js`: Actualiza la vista del carrito.
-- `checkout.js`: Maneja la funcionalidad de pago.
+- `styles.css`: Estilos combinados para la aplicación.
+- `script.js`: Archivo JavaScript combinado que maneja la funcionalidad del carrito, actualización del carrito y pago.
 
 ## Características
 
